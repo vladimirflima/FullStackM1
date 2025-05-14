@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Página Desenvolvimento Full Stack M1</title>
+</head>
+
+<!--EXEMPLO DE COMENTÁRIO-->
+<body>
+    <header>
+        <img width="300" height="100" title="aqui é uma imagem" src="form.jpg" alt="imagem de um formulário">
+        <nav style="font-size: 20px;">
+            <ul>
+                <li><a href="https://www.americanas.com.br/" target="_blank" >Inicio</a></li>
+                <li><a href="#fotos">Fotos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" >
+            <h1>Aqui eu estou na seção 01</h1>
+            <p>Esta é a seção 01!!!</p>
+        </section>
+
+        <section id="fotos">
+            <h1>Aqui eu estou na seção 02</h1>
+            <p>Esta é a seção 02!!!</p>
+        </section>
+
+        <section id="contato" >
+            <h1>Aqui eu estou na seção 03</h1>
+            <p>Esta é a seção 03!!!</p>
+        </section>
+
+        <section id="form" >
+            <h1>Formulário</h1>
+            <form action="">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                        <label for="nome">Nome:</label>
+                        <input maxlength="5" type="text" id="nome" placeholder="Digite seu nome" required><br>
+                        
+                        <label for="">Email:</label>
+                        <input type="email" placeholder="Digite seu email"><br>
+
+                        <label for="">Senha:</label>
+                        <input type="password" placeholder="Digite a senha"><br>
+
+                        <label for="">Idade:</label>
+                        <input type="number" placeholder="Digite sua idade"> <br>
+
+                        <label for="">Cidade</label> 
+                        <select name="" id="">
+                            <option value="be">Beberibe</option>
+                            <option value="for">Fortaleza</option>
+                            <option value="jn">Juazeiro do Norte</option>
+                            <option value="sb">São Benedito</option>
+                            <option value="cr">Crato</option>
+                        </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Curso</legend>
+                        <input type="radio" name="curso" value="fullstack" >
+                        <label for="">Fullstack</label>
+
+                        <input type="radio" name="curso" value="ciencia_de_dados" >
+                        <label for="">Ciência de Dados</label>
+
+                        <input type="radio" name="curso" value="frontend" >
+                        <label for="">Front End</label>
+                        
+                        <input type="radio" name="curso" value="backend" >
+                        <label for="">Back End</label>
+
+                    <h3>Escolha a disciplina</h3>
+                        <input type="checkbox">
+                        <label for="">HTML</label>
+
+                        <input type="checkbox">
+                        <label for="">CSS</label>
+
+                        <input type="checkbox">
+                        <label for="">JS</label>
+
+                        <input type="checkbox">
+                        <label for="">PostgreSQL</label>
+
+                        <input type="checkbox">
+                        <label for="">MongoDB</label>
+                        
+                        <br> 
+                </fieldset> <br>
+
+            <input type="submit">
+            <input type="reset">
+
+            </form>
+            
+        </section>
+
+        <aside>
+            <h1>Aqui eu estou no aside</h1>
+            <p>Este é o aside!!!</p>
+        </aside>
+
+    </main>
+    <footer>
+        <p>Contato - 85999999999 - End: Rua das Flores Tal N 58</p>
+        <a href="">Instagram</a>
+        <a href="">LinkedIn</a>
+        <a href="">WhatsApp</a>
+    </footer>
+
+   <style>
+        #body{
+            font-size: smaller;
+        }
+    </style>
+</body>
+</html>

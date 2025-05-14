@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(105, 105, 105);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: smaller;
+}
+
+nav ul { 
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    corlor: #000;
+    font-weith: bold;
+}
+
+legend {
+    font-size: 30px;
+}
+
+fieldset label {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+img { 
+    width: 100%;
+    height: 100%;
+}
